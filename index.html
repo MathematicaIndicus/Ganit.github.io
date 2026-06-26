@@ -1,1 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MathNotes | Beautiful Mathematics</title>
+
+    <meta name="description"
+        content="Short, beautiful and interesting mathematical articles, ideas and facts.">
+
+    <link rel="icon" href="images/favicon.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- KaTeX -->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+
+    <script defer
+        src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+
+    <script defer
+        src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ===================== -->
+    <!-- Background Decoration -->
+    <!-- ===================== -->
+
+    <div class="background-blur blur1"></div>
+    <div class="background-blur blur2"></div>
+
+    <!-- ===================== -->
+    <!-- Navigation -->
+    <!-- ===================== -->
+
+    <nav class="navbar">
+
+        <div class="logo">
+            <i class="fa-solid fa-infinity"></i>
+            <span>MathNotes</span>
+        </div>
+
+        <ul class="nav-links">
+
+            <li>
+                <a href="#home">
+                    Home
+                </a>
+            </li>
+
+            <li>
+                <a href="#blogs">
+                    Blogs
+                </a>
+            </li>
+
+            <li>
+                <a href="#contact">
+                    Contact
+                </a>
+            </li>
+
+        </ul>
+
+        <button id="themeToggle">
+            <i class="fa-solid fa-moon"></i>
+        </button>
+
+    </nav>
+
+    <!-- ===================== -->
+    <!-- Hero Section -->
+    <!-- ===================== -->
+
+    <header id="home" class="hero">
+
+        <div class="hero-text">
+
+            <p class="welcome">
+                MATHEMATICS • BEAUTY • CURIOSITY
+            </p>
+
+            <h1>
+
+                Mathematics is not about numbers.
+
+                <span>
+
+                    It is about discovering hidden patterns.
+
+                </span>
+
+            </h1>
+
+            <p class="hero-description">
+
+                A small collection of elegant proofs, surprising facts,
+                beautiful theorems and mathematical ideas written in a
+                simple and enjoyable way.
+
+            </p>
+
+            <a href="#blogs" class="hero-btn">
+
+                Start Reading
+
+                <i class="fa-solid fa-arrow-right"></i>
+
+            </a>
+
+        </div>
+
+        <div class="hero-image">
+
+            <img src="images/hero-math.jpg"
+                alt="Mathematics Illustration">
+
+        </div>
+
+    </header>
+
+    <!-- ===================== -->
+    <!-- Quote -->
+    <!-- ===================== -->
+
+    <section class="quote-section">
+
+        <blockquote>
+
+            "Pure mathematics is, in its way,
+            the poetry of logical ideas."
+
+        </blockquote>
+
+        <span>
+
+            — Albert Einstein
+
+        </span>
+
+    </section>
+
+    <!-- ===================== -->
+    <!-- Search -->
+    <!-- ===================== -->
+
+    <section class="search-section">
+
+        <h2>
+
+            Explore Articles
+
+        </h2>
+
+        <div class="search-box">
+
+            <i class="fa-solid fa-magnifying-glass"></i>
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search articles...">
+
+        </div>
+
+    </section>
+
+    <!-- ===================== -->
+    <!-- Blog Section -->
+    <!-- ===================== -->
+
+    <section id="blogs" class="blogs">
+
+        <div class="section-title">
+
+            <h2>
+
+                Latest Articles
+
+            </h2>
+
+            <p>
+
+                Short mathematical reads for curious minds.
+
+            </p>
+
+        </div>
+
+        <div id="blogContainer" class="blog-grid">
+
+            <!-- Blog Card -->
+
+            <article class="blog-card">
+
+                <img
+                    src="images/sample1.jpg"
+                    alt="Blog">
+
+                <div class="blog-content">
+
+                    <span class="category">
+
+                        Number Theory
+
+                    </span>
+
+                    <h3>
+
+                        Why Every Prime Greater Than 3
+                        Looks Like 6k ± 1
+
+                    </h3>
+
+                    <p>
+
+                        A beautiful observation that every
+                        prime beyond 3 must lie in one
+                        of only two residue classes.
+
+                    </p>
+
+                    <div class="blog-footer">
+
+                        <span>
+
+                            June 2026
+
+                        </span>
+
+                        <a href="#">
+
+                            Read More
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+            <!-- Card -->
+
+            <article class="blog-card">
+
+                <img
+                    src="images/sample2.jpg"
+                    alt="Blog">
+
+                <div class="blog-content">
+
+                    <span class="category">
+
+                        Calculus
+
+                    </span>
+
+                    <h3>
+
+                        Why
+
+                        \(e^{i\pi}+1=0\)
+
+                        is Called the Most Beautiful Equation
+
+                    </h3>
+
+                    <p>
+
+                        Five of mathematics'
+                        most fundamental constants
+                        appear in one identity.
+
+                    </p>
+
+                    <div class="blog-footer">
+
+                        <span>
+
+                            June 2026
+
+                        </span>
+
+                        <a href="#">
+
+                            Read More
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+            <!-- Card -->
+
+            <article class="blog-card">
+
+                <img
+                    src="images/sample3.jpg"
+                    alt="Blog">
+
+                <div class="blog-content">
+
+                    <span class="category">
+
+                        Probability
+
+                    </span>
+
+                    <h3>
+
+                        The Birthday Paradox
+
+                    </h3>
+
+                    <p>
+
+                        Why just 23 people are enough
+                        to make shared birthdays
+                        surprisingly likely.
+
+                    </p>
+
+                    <div class="blog-footer">
+
+                        <span>
+
+                            June 2026
+
+                        </span>
+
+                        <a href="#">
+
+                            Read More
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </section>
+
+        <!-- ===================== -->
+    <!-- About Section -->
+    <!-- ===================== -->
+
+    <section id="about" class="about-section">
+
+        <div class="section-title">
+            <h2>About This Website</h2>
+            <p>Small mathematical ideas that are elegant, surprising and enjoyable.</p>
+        </div>
+
+        <div class="about-container">
+
+            <div class="about-text">
+
+                <p>
+                    Mathematics is often presented as a collection of formulas,
+                    but behind every theorem lies an elegant story. This website
+                    is a personal collection of interesting mathematical facts,
+                    intuitive explanations, beautiful proofs and historical
+                    anecdotes written for anyone who enjoys mathematics.
+                </p>
+
+                <p>
+                    Whether you're an undergraduate student, a researcher or
+                    simply curious, I hope you discover something fascinating
+                    every time you visit.
+                </p>
+
+                <div class="about-highlights">
+
+                    <div class="highlight">
+                        <i class="fa-solid fa-square-root-variable"></i>
+                        <span>Elegant Mathematics</span>
+                    </div>
+
+                    <div class="highlight">
+                        <i class="fa-solid fa-lightbulb"></i>
+                        <span>Interesting Ideas</span>
+                    </div>
+
+                    <div class="highlight">
+                        <i class="fa-solid fa-book-open"></i>
+                        <span>Short Reads</span>
+                    </div>
+
+                    <div class="highlight">
+                        <i class="fa-solid fa-infinity"></i>
+                        <span>LaTeX Friendly</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="about-image">
+
+                <img src="images/about-math.jpg"
+                    alt="Mathematics">
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ===================== -->
+    <!-- Math Fact Banner -->
+    <!-- ===================== -->
+
+    <section class="fact-banner">
+
+        <div class="fact-card">
+
+            <h3>Did You Know?</h3>
+
+            <p>
+
+                There are infinitely many prime numbers.
+
+            </p>
+
+            <div class="fact-formula">
+
+                \[
+                \text{If } p_1,p_2,\ldots,p_n
+                \text{ are all primes, then }
+                p_1p_2\cdots p_n+1
+                \text{ has a new prime divisor.}
+                \]
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ===================== -->
+    <!-- Contact -->
+    <!-- ===================== -->
+
+    <section id="contact" class="contact-section">
+
+        <div class="section-title">
+
+            <h2>Contact</h2>
+
+            <p>
+                Feel free to connect regarding mathematics,
+                suggestions or collaboration.
+            </p>
+
+        </div>
+
+        <div class="contact-container">
+
+            <div class="contact-card">
+
+                <i class="fa-solid fa-envelope"></i>
+
+                <h3>Email</h3>
+
+                <p>
+
+                    yourmail@example.com
+
+                </p>
+
+            </div>
+
+            <div class="contact-card">
+
+                <i class="fa-brands fa-github"></i>
+
+                <h3>GitHub</h3>
+
+                <p>
+
+                    github.com/yourusername
+
+                </p>
+
+            </div>
+
+            <div class="contact-card">
+
+                <i class="fa-brands fa-linkedin"></i>
+
+                <h3>LinkedIn</h3>
+
+                <p>
+
+                    linkedin.com/in/yourprofile
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ===================== -->
+    <!-- Footer -->
+    <!-- ===================== -->
+
+    <footer>
+
+        <div class="footer-content">
+
+            <div class="footer-logo">
+
+                <i class="fa-solid fa-infinity"></i>
+
+                <span>MathNotes</span>
+
+            </div>
+
+            <p>
+
+                Exploring mathematics one beautiful idea at a time.
+
+            </p>
+
+            <div class="footer-links">
+
+                <a href="#home">Home</a>
+
+                <a href="#blogs">Blogs</a>
+
+                <a href="#about">About</a>
+
+                <a href="#contact">Contact</a>
+
+            </div>
+
+            <div class="social-icons">
+
+                <a href="#">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+
+            </div>
+
+            <p class="copyright">
+
+                © 2026 MathNotes.
+                Made with HTML, CSS, JavaScript and LaTeX.
+
+            </p>
+
+        </div>
+
+    </footer>
+
+    <!-- ===================== -->
+    <!-- Back To Top -->
+    <!-- ===================== -->
+
+    <button id="scrollTopBtn">
+
+        <i class="fa-solid fa-chevron-up"></i>
+
+    </button>
+
+    <!-- ===================== -->
+    <!-- Loading Screen -->
+    <!-- ===================== -->
+
+    <div id="loader">
+
+        <div class="loader-content">
+
+            <div class="loader-circle"></div>
+
+            <p>
+
+                Loading Mathematics...
+
+            </p>
+
+        </div>
+
+    </div>
+
+    <!-- ===================== -->
+    <!-- KaTeX Auto Render -->
+    <!-- ===================== -->
+
+    <script>
+
+        document.addEventListener("DOMContentLoaded", function () {
+
+            renderMathInElement(document.body, {
+
+                delimiters: [
+
+                    {
+                        left: "$$",
+                        right: "$$",
+                        display: true
+                    },
+
+                    {
+                        left: "\\(",
+                        right: "\\)",
+                        display: false
+                    },
+
+                    {
+                        left: "\\[",
+                        right: "\\]",
+                        display: true
+                    }
+
+                ]
+
+            });
+
+        });
+
+    </script>
+
+    <!-- ===================== -->
+    <!-- Custom JavaScript -->
+    <!-- ===================== -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
